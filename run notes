@@ -1,0 +1,13 @@
+# challenging to make the github jekyll site to run
+
+# run in git bash
+#
+# run: 
+#      bundle init
+#      bundle add jekyll
+#      JEKYLL_ENV=production bundle exec jekyll build
+#      JEKYLL_ENV=production bundle exec jekyll serve
+
+#
+
+
