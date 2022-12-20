@@ -3,21 +3,17 @@ layout: default
 ---
 
 <!DOCTYPE html>
-<html lang=""en-ca>
+<html>
     <head>
-        <meta charset="utf-8">
-        <title>Manuals git pages site</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     </head>
-    <body>
 
-        {% include_relative _includes/header.html %}
-        <div>
-            <p>
-                Welcome to my git pages site
-            </p>
-        </div>
+    <body>
         
-        {% include_relative _includes/footer.html %}
-        
+        {% include_relative 'partials/header.html' %}
+
+        <h1 class="center-text">Welcome</h1>
+
+        {% include_relative 'partials/footer.html' %}
     </body>
 </html>
