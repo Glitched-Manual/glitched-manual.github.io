@@ -25,3 +25,26 @@ footer h4 {
 .center-text{
     text-align: center;
 }
+
+li {
+    display: inline;
+  }
+
+ .header-nav-bar-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #04AA6D;
+}
